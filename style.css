@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+p {
+    font-size: 3rem;
+}
+
+button{
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.darkgreen{
+    background-color: rgb(4, 104, 4);
+}
+
+button.hotpink{
+    background-color: rgb(255, 0, 128);
+}
+
+button.blue{
+    background-color: rgb(2, 2, 224);
+}
+
